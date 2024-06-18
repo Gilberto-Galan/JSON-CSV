@@ -1,0 +1,29 @@
+/* Estilos adicionales para la página */
+body {
+    padding-bottom: 60px; /* Ajuste para evitar que el footer se solape con el contenido */
+    min-height: 100vh; /* Mínimo altura del viewport */
+    position: relative; /* Necesario para el footer fijo */
+}
+
+/* Estilos adicionales para el footer */
+.footer {
+    background-color: #87add3; /* Color de fondo */
+    border-top: 1px solid #e9ecef; /* Borde superior */
+    width: 100%; /* Ancho completo */
+    position: fixed; /* Fijo en la parte inferior */
+    bottom: 0; /* Alinear al fondo */
+    left: 0;
+}
+
+.footer .container {
+    padding-top: 10px; /* Espaciado interno superior */
+}
+
+.footer span {
+    font-size: 14px; /* Tamaño de fuente */
+}
+
+.footer a{
+    text-decoration: none;
+    outline: none;
+}
